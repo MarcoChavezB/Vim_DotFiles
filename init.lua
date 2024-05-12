@@ -10,8 +10,7 @@ vim.g.NERDTreeShowHidden = 1
 -- Ruta a comandos personalizados para html 
 vim.cmd("source ~/.config/nvim/comands/html_comands.lua")
 
-
-
+vim.opt.tabstop=20
 
 -- bootstrap lazy and all plugins
 local lazypath = vim.fn.stdpath "data" .. "/lazy/lazy.nvim"
